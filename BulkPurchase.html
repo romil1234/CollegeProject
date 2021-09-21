@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width = device-width, initial-scale = 1.0">
+        <meta http-equiv="X-UA-Compatible" content = "ie=edge">
+        <title>SmartSound</title>
+         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet"href="jbl.css">
+        <link rel="stylesheet"href='wireless.html'>
+        <link rel="stylesheet"href='headphones.html'>
+        <link rel="stylesheet"href='speakers.html'>
+        <link rel="stylesheet"href='wireless.html'>
+        <link rel="stylesheet"href="headphones.css">
+        <link rel="stylesheet"href='signup.html'>
+        <link rel="stylesheet"href="moreproducts.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    
+    <body>
+          <nav class="navbar navbar-expand-lg navbar-white bg-black ">
+        <div class="container-fluid">
+           <a class="navbar-brand text-white" >SMART SOUND</a>
+            <button class="navbar-toggler bg-light custom-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation ">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item"></li>
+                  <a class="nav-link text-white" aria-current="page" href="jbl.html">HOME</a>
+                  <a class="nav-link text-white" aria-current="page" href="headphones.html">HEADPHONES</a>
+                  <a class="nav-link text-white" aria-current="page" href="earphones.html">EARPHONES</a>
+                  <a class="nav-link text-white" aria-current="page" href="speakers.html">SPEAKERS</a>
+                  <a class="nav-link text-white" aria-current="page" href="wireless.html">WIRELESS</a>
+                 
+              </ul>
+                  <a class="nav-link custom-login text-white"  aria-current="page" href="signup.html">LOGIN</a>
+                <a href="#"><span class="fa fa-shopping-cart  fs-2 text-white"></span></a> 
+            </div>
+            
+        </div>
+    </nav>
+        <div class="inside ty-hide custom-inside">
+                <p class="custom-textttt">Whether you are looking to purchase in volume for a business or personal requirement (not for resale), the SMART SOUND Bulk Purchase Program gives you the opportunity to order  SMART SOUND products at great discounted prices. 50 units or more for a single or combination of products will qualify as a bulk purchase, excluding refurbished.</p>
+                <p class="custom-textttt">For bulk pricing information, product details, and to place your order, contact us using the form below.</p>
+                <p class="custom-textttt">Please don't use this form for resale inquiries.<br>You will receive a reply between 1 to 3 days.</p>
+                <br>
+                                    <style>
+        .hpfield {
+            position: absolute;
+            top: -1000px;
+            left: -1000px;
+        }
+    </style>
+    <form action="https://in.jbl.com/on/demandware.store/Sites-JB-INDIA-Site/en_IN/CustomerService-BulkOrderPost" method="post" autocomplete="nope">
+        <label class="hpfield">
+            <div><input type="text" name="pot_of_goods"></div>
+        </label>
+        <input type="hidden" name="Form_name" value="Bulk Order Form">
+        <input type="hidden" name="Locale" value="en_IN">
+        <input type="hidden" name="Brand" value="jbl">
+        <label ><b>First and Last Name</b><sup>*</sup><br>
+            <input type="text" name="First_and_Last_Name" required="" class="parsley-validated custom-first" >
+        </label>
+        <label class="custom-email1"><b>Email</b><sup>*</sup><br>
+            <input type="email" name="Email" required="" class="parsley-validated custom-email ">
+        </label><br>
+        <label class="custom-phone1"><b>Phone Number</b><sup>*</sup><br>
+            <span class="phonenumber ">
+                <select data-name="countrycode">
+                    <option value="+91" data-country="IN">+91</option>
+                </select>
+                <input type="number" data-name="phonenumber" class="parsley-validated custom-phone">
+                <input type="hidden" name="Phone_Number">
+            </span>
+        </label>
+        <label class="custom-company1"><b>Company Name</b><sup>*</sup><br>
+            <input type="text" name="Company_Name" required="" class="parsley-validated custom-company">
+        </label>
+        <label class="custom-product1"><b>Product's</b><sup>*</sup><br>
+            <input type="text" name="Products" required="" class="parsley-validated custom-product">
+            <span><p>Please describe the product's you are interested to buy.</p></span>
+        </label><br>
+        <label class="custom-quan1"><b>Quantity</b><sup>*</sup><br>
+            <input type="number" name="Quantity" required="" class="parsley-validated custom-quan">
+        </label>
+            <label class="custom-purchase1"><b>Reason for Purchase</b><sup>*</sup><br>
+                <select name="Reason_for_Purchase" required="" class="parsley-validated custom-purchase">
+                    <option value="">Please select</option>
+                    <option value="Gift">Gift</option>                
+                    <option value="Promotional material">Promotional material</option>
+                    <option value="Resale to consumers" specify="">Resale to consumers (Please specify)</option>
+                    <option value="Staff equipment">Staff equipment</option>                
+                    <option value="Other" specify="">Other (Please specify)</option>
+                </select>
+                <input type="text" name="Reason_for_Purchase_Specify" placeholder="Please specify" class="specify">
+            </label>
+         <label class="custom-type1" ><b>Type of Business</b><sup>*</sup><br>
+            <select name="Type_of_Business" required="" class="parsley-validated custom-type">
+                <option value="">Please select</option>
+                                    <option value="Agency">Agency</option>                    <option value="Corporation">Corporation</option>
+                    <option value="Education">Education</option>
+                    <option value="Non Profit">Non Profit</option>
+                    <option value="Reseller" specify="">Reseller</option>
+                <option value="Other" specify="">Other (Please specify)</option>
+            </select>
+            <input type="text" name="Type_of_Business_Specify" placeholder="Please specify" class="specify">
+        </label><br>
+             <label class="custom-ship1"><b>What country will the product(s) ship to?</b><sup>*</sup><br>
+                <select name="Shipping_Country" required="" class="parsley-validated custom-ship">
+                    <option value="">Please select</option>
+                                            <option value="India" selected="">India</option>
+                                    </select>
+                
+            </label>
+            <label class="custom-purch1"><b>Have you purchased our products before?</b><sup>*</sup><br>
+                <select name="Purchased_Before" required="" class="parsley-validated custom-purch">
+                    <option value="">Please select</option>
+                    <option value="Yes" specify="">Yes</option>
+                    <option value="No">No</option>
+                </select>
+               
+            </label><br>
+        <label class="custom-delivery1"><b>Desired delivery date</b><sup>*</sup><br>
+            <input type="date" name="Desired_Delivery_Date" required="" class="parsley-validated custom-delivery">
+        </label><br>
+ 
+        <label class="large custom-addi1"><b>Additional Information/message</b><sup>*</sup><br>
+            <textarea name="Additional_Information" required="" class="parsley-validated"></textarea>
+        </label>
+                <label style="position: absolute; z-index: -1000; top: -2000px; left: -2000px; pointer-events: none;">
+            Any other message:<br>
+            <input type="text" name="Message">
+            <span>(optional)</span>
+        </label>
+        <p><sup>*</sup>Required field</p>
+        <p>By creating an account, you understand and agree to our <a href="terms.html" targer="_blank">Terms of Use</a> and <a href="privacy-policy.html" targer="_blank">Privacy Policy</a>.</p>
+        <input type="submit" class="custom-submit" value="Submit">
+    </form>
+    </div>
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js" integrity="sha384-eMNCOe7tC1doHpGoWe/6oMVemdAVTMs2xqW4mwXrXsW0L84Iytr2wi5v2QjrP/xp" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.min.js" integrity="sha384-cn7l7gDp0eyniUwwAZgrzD06kc/tftFf19TOAs2zVinnD/C7E91j9yyk5//jjpt/" crossorigin="anonymous"></script>
+    </body>
+</html>
